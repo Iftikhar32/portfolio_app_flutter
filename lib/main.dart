@@ -5,7 +5,7 @@ void main() {
       home: Scaffold(
     backgroundColor: Colors.grey[900],
     appBar: AppBar(
-      title: Text('Iftikhar ID Card'),
+      title: Text('IFTIKHAR ID CARD'),
       centerTitle: true,
       backgroundColor: Colors.red,
     ), body: Container(
