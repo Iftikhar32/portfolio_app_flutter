@@ -8,7 +8,8 @@ void main() {
       title: Text('IFTIKHAR ID CARD'),
       centerTitle: true,
       backgroundColor: Colors.red,
-    ), body: Container(
+    ),
+        body: Container(
       padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
       child: Column(
         children: [
@@ -20,7 +21,7 @@ void main() {
             height: 25,
           ),
           Divider(
-            height: 60,
+            height: 40,
             color: Colors.red[500],
           ),
           Text(
@@ -28,7 +29,7 @@ void main() {
             style: TextStyle(
               fontSize: 15,
               fontWeight: FontWeight.bold,
-              color: Colors.grey,
+              color: Colors.white,
               letterSpacing: 2,
             ),
           ),
@@ -51,7 +52,7 @@ void main() {
             style: TextStyle(
               fontSize: 15,
               fontWeight: FontWeight.bold,
-              color: Colors.yellow,
+              color: Colors.white,
               letterSpacing: 2,
             ),
           ),
